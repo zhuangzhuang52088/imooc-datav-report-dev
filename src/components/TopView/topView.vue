@@ -33,10 +33,10 @@ import TodayUsers from '../TodayUsers'
 
 export default {
   components: {
-    TotalSales,
-    TotalOrders,
-    TotalUsers,
-    TodayUsers
+    TotalSales, // 累计销售额组件
+    TotalOrders, // 累计订单量组件
+    TotalUsers, // 今日交易用户数组件
+    TodayUsers // 累计用户数组件
   }
 }
 </script>
