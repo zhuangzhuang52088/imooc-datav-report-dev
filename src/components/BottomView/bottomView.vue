@@ -1,6 +1,6 @@
 <template>
   <div class="topview">
-      SalesView
+      BottomView
   </div>
 </template>
 

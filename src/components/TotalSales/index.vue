@@ -18,7 +18,7 @@
           </div>
         </div>
       </template>
-      <template v-slot:footer>
+      <template v-slot:footer>      <!-- 修改CommonCard里footer插槽的内容 -->
           <span>昨日销售额</span>
           <span class="emphasize">￥ 30,000,000</span>
       </template>
