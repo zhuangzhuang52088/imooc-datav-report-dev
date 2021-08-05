@@ -18,13 +18,13 @@ import BottomView from '../components/BottomView/bottomView.vue'
 import MapView from '../components/MapView/mapView.vue'
 
 export default {
-  name: 'Home',
-  components: {
-    TopView, // 第一个模块
-    SalesView, // 第二个模块
-    BottomView, // 第三个模块
-    MapView // 第四个模块
-  }
+    name: 'Home',
+    components: {
+        TopView, // 第一个模块
+        SalesView, // 第二个模块
+        BottomView, // 第三个模块
+        MapView // 第四个模块
+    }
 }
 </script>
 

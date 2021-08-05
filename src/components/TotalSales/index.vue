@@ -29,45 +29,45 @@
 // import CommonCard from '../CommonCard'
 import commonCardMixin from '../../mixins/commonCardMixin' // 不用引入CommonCard组件，全部使用mixin混入，方便后期操作
 export default {
-  /* components: {
+    /* components: {
      CommonCard
   } */
-  mixins: [commonCardMixin]
+    mixins: [commonCardMixin]
 }
 </script>
 
 <style lang="scss" scoped>
-    .compare-wrap{
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .compare{
-      display: flex;
-      align-items: center;
-      height: 50%;
-      font-size: 12px;
-      margin-top: 3px;
-      color: #666;
-      .increase{
-        width: 0;
-        height: 0;
-        border-width: 3px;
-        border-color: transparent transparent red transparent;
-        border-style: solid;
-        margin-left: 5px;
-        margin-bottom: 3px;
-      }
-      .decrease{
-        width: 0;
-        height: 0;
-        border-width: 3px;
-        border-color: green transparent transparent transparent;
-        border-style: solid;
-        margin-left: 5px;
-        margin-top: 3px;
-      }
-    }
+.compare-wrap{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.compare{
+  display: flex;
+  align-items: center;
+  height: 50%;
+  font-size: 12px;
+  margin-top: 3px;
+  color: #666;
+  .increase{
+    width: 0;
+    height: 0;
+    border-width: 3px;
+    border-color: transparent transparent red transparent;
+    border-style: solid;
+    margin-left: 5px;
+    margin-bottom: 3px;
+  }
+  .decrease{
+    width: 0;
+    height: 0;
+    border-width: 3px;
+    border-color: green transparent transparent transparent;
+    border-style: solid;
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+}
 
 </style>
